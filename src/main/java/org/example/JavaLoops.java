@@ -13,18 +13,40 @@ public class JavaLoops {
             System.out.println("Current value of the number is: " + number);
         }
   //      number--; // it belongs only to for loop
-        int number = 11
+        int number = 11;
         // for is the same as this while loop
         int control = 10;
         while (control > 0){
             System.out.println("Current value of the number is: " + control);
             control--;
         }
-        System.out.println("OPutside while control is: " + control);
+        System.out.println("Outside while control is: " + control);
 
         // infinite for loop
-        for(;;){
+        //     for(;;){
+
+  //     }
+
+        for (int i = 100; i > 0; i--){
+            System.out.println("Current value of i: " + i);
+            if (i == 90){
+                // exit the loop
+                break;
+            }
 
         }
+
+        System.out.println("Printing stars");
+        // *
+        // **
+        // ***
+        // print 10 lines
+        String stars = "*";
+        for (int i = 0; i < 10; i++){
+            System.out.println(stars);
+            stars = stars + "*";
+
+        }
+
     }
 }
