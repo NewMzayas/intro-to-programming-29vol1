@@ -7,7 +7,7 @@ public class ThreePersonsWithFunctions {
         int johnAge = 5;
         int marthaAge = 19;
 
-        isAdult(age: 100);
+        isAdult( 100);
         isAdult(10);
 
         System.out.println("Now with our variables");
