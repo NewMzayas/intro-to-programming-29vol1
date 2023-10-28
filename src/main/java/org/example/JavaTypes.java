@@ -1,12 +1,9 @@
 package org.example;
 
-import org.w3c.dom.ls.LSOutput;
-
 public class JavaTypes {
-    // psvm
+
     public static void main(String[] args) {
-        // sout
-        System.out.println("Java types examples");
+        System.out.println("Java types example");
         System.out.println("Numbers first");
 
         // variable - place for storing some content
@@ -16,8 +13,8 @@ public class JavaTypes {
         int age;
         age = 18;
         System.out.println("Current age is: " + age);
-        age = 17;
-        age = 19;
+
+        age = 20;
         System.out.println("Current age is: " + age);
         age = 25;
         System.out.println("Current age is: " + age);
@@ -27,16 +24,18 @@ public class JavaTypes {
 
         int age4 = 4;
 
-        //double used for floating numbers
+        // double used for floating numbers
         double age5 = 4.5;
         System.out.println("Age5 is: " + age5);
 
-       // int class = 5;
+//        int class = 5;
 
-        System.out.println("Let's meet numbers types");
+        System.out.println("Let's meet numbers type");
         System.out.println("int type");
         System.out.println("Smallest int is: " + Integer.MIN_VALUE);
         System.out.println("Biggest int is: " + Integer.MAX_VALUE);
+
+        System.out.println();
 
         System.out.println("long type");
         long longAge = 5;
@@ -46,7 +45,7 @@ public class JavaTypes {
         System.out.println();
 
         System.out.println("byte type");
-        byte byteAGE = 5;
+        byte byteAge = 5;
         System.out.println("Smallest byte is: " + Byte.MIN_VALUE);
         System.out.println("Biggest byte is: " + Byte.MAX_VALUE);
 
@@ -74,7 +73,7 @@ public class JavaTypes {
         System.out.println();
 
         System.out.println("char type");
-        char singleLetter = 'a'; // "a" not the same "dddd"
+        char singleLetter = 'a'; // "ddd"
         // TODO: explain range
 
         System.out.println();
@@ -86,7 +85,5 @@ public class JavaTypes {
 
         System.out.println("trueValue: " + trueValue);
         System.out.println("falseValue: " + falseValue);
-
-
     }
 }
