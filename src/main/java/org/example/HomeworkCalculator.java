@@ -4,12 +4,13 @@ public class HomeworkCalculator {
 
     public static void main(String[] args) {
         System.out.println("Using my homework calculator");
-        add(10, 15);
+        int sun1 = add(10, 15);
         int numberOne = 11;
         System.out.println("number one is: " + numberOne);
         int numberTwo = 15;
         add(numberOne, numberTwo);
-        addManyNumbers(1, 1, 2, 2, 1);
+        int bigSum = addManyNumbers(1, 1, 2, 2, 1);
+        System.out.println("Big sum of numbers is: " + bigSum);
     }
 
     public static int add(int a, int b) {
@@ -20,7 +21,7 @@ public class HomeworkCalculator {
     }
 
     public static int addManyNumbers(int a, int b, int c, int d, int e) {
-        return 10;
+        return a + b + c + d + e;
     }
 
     public int sub(int a, int b) {
