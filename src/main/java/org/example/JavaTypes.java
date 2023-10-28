@@ -74,6 +74,10 @@ public class JavaTypes {
 
         System.out.println("char type");
         char singleLetter = 'a'; // "ddd"
+        char aLetter = 97; // index of 'a'  letter from table
+        System.out.println("A letter: " + singleLetter);
+        System.out.println("A letter: " + aLetter);
+
         // TODO: explain range
 
         System.out.println();
